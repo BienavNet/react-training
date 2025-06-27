@@ -1,0 +1,71 @@
+.container {
+    font-size: smaller;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+button {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ffff;
+    font-weight: bold;
+    display: block;
+    justify-self: end;
+    background-color: rgb(0, 0, 0, .1);
+}
+
+
+.isFollowing {
+    background-color: #ffff;
+    color: black !important;
+}
+
+
+.isFollowing:hover {
+    background-color: rgb(255, 255, 255, .8);
+}
+
+.notFollowing:hover {
+    background-color: rgb(255, 0, 0, .3);
+    color: red;
+    border: 1px solid red;
+}
+
+.notFollowing:hover .stopFollow {
+    display: block;
+}
+.notFollowing:hover .following {
+    display: none;
+}
+
+.following {
+    display: block;
+}
+
+.stopFollow {
+    display: none;
+}

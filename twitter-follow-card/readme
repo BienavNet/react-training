@@ -1,0 +1,6 @@
+Crea una notificación estilo twitter donde se puedan ver los dos estados:
+=> Si no estás siguiendo a la persona, que el texto del botón sea seguir,
+=> Si estás siguiendo a la persona, que el texto del botón sea siguiendo, y al hacer hover, sea dejar de seguir
+
+https://unavatar.io/
+puedes usar esa url para cargar la imágen de la persona
