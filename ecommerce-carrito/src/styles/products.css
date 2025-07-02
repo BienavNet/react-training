@@ -1,0 +1,21 @@
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product p {
+    text-align: justify;
+}
